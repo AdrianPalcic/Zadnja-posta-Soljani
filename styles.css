@@ -163,12 +163,13 @@ img {
     flex-direction: column;
   }
   .recenzija-heading {
-    font-size: 24px;
+    font-size: 20px;
   }
   .recenzija-tekst {
-    font-size: 18px;
+    font-size: 14px;
+
   }
   .Franka {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
