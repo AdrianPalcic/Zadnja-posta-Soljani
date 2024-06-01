@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 html {
-  background-color: powderblue;
+  background-color: whitesmoke;
 }
 .heading {
   width: 100%;
@@ -14,7 +14,7 @@ html {
   text-align: center;
   padding: 16px 8px 0 8px;
   font-family: "Dancing script";
-  font-size:18px;
+  font-size:22px;
 }
 .heading2 {
   padding-top:16px;
@@ -24,7 +24,7 @@ html {
   background: transparent;
   border:none;
   font-family: "Dancing script";
-  font-size:18px;
+  font-size:22px;
 }
 .clicker:hover {
   cursor: pointer;
@@ -63,6 +63,7 @@ img {
   object-fit: cover;
   transition: 0.5s;
 }
+
 .book:hover {
   cursor:pointer;
   transform: translateY(-50px);
@@ -83,7 +84,7 @@ img {
   width: 100%;
   height: 100%;
   position: absolute;
-  top:100px;
+  top:120px;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
@@ -110,7 +111,7 @@ img {
 .recenzija-heading {
   text-align: center;
   padding:12px;
-  font-size:30px;
+  font-size:24px;
 }
 .left-right {
   display:flex;
@@ -126,14 +127,13 @@ img {
   padding: 16px;
 }
 .recenzija-tekst  {
-  word-wrap:break-word;
   line-height: 1.8;
   font-size: 22px;
-
+  margin-left:28px;
 }
 .Franka {
   flex:1;
-  font-size: 32px;
+  font-size: 26px;
 
 }
 .pjesme {
